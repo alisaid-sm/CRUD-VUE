@@ -223,7 +223,7 @@ export default {
     },
     onLogout () {
       this.actionLogout().then((resolve) => {
-        window.location = '/login'
+        window.location = '/'
       })
     }
   },
