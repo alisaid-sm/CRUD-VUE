@@ -6,6 +6,8 @@ Feature:
 3. CRUD
 4. Pagination
 ## Preview
+![Screenshot from 2020-12-12 12-09-57](https://user-images.githubusercontent.com/68319083/101975934-18358b80-3c73-11eb-8f09-36694eff84f5.png)
+
 ## Project setup
 ```
 npm install
