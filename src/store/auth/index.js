@@ -8,8 +8,7 @@ const state = () => {
 
 const getters = {
   isLogin (state) {
-    // eslint-disable-next-line quotes
-    if (state.token !== null && state.token !== "undefined") {
+    if (state.token !== null && state.token !== 'undefined') {
       return true
     } else {
       return false
@@ -19,14 +18,12 @@ const getters = {
 
 const actions = {
   login (context, payload) {
-    console.log(payload)
     return new Promise((resolve, reject) => {
       axios.post('https://reqres.in/api/login', payload)
         .then((response) => {
           localStorage.setItem('token', response.data.token)
           resolve('Login Success')
         }).catch((err) => {
-          console.log(err)
           reject(err)
         })
     })
@@ -35,7 +32,6 @@ const actions = {
     return new Promise((resolve, reject) => {
       axios.post('https://reqres.in/api/register', payload)
         .then((response) => {
-          console.log(response)
           resolve(response.data.message)
         }).catch((err) => {
           reject(err)
