@@ -1,5 +1,11 @@
 # crud-vue
-
+CRUD VueJS sederhana menggunakan api free reqres.in.
+Feature:
+1. Login
+2. Register
+3. CRUD
+4. Pagination
+## Preview
 ## Project setup
 ```
 npm install
