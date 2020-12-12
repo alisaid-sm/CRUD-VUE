@@ -5,6 +5,7 @@ Feature:
 2. Register
 3. CRUD
 4. Pagination
+DEMO: https://bit.ly/2IFLqhu
 ## Preview
 ![Screenshot from 2020-12-12 12-09-57](https://user-images.githubusercontent.com/68319083/101975934-18358b80-3c73-11eb-8f09-36694eff84f5.png)
 
