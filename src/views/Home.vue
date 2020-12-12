@@ -189,6 +189,7 @@ export default {
     }),
     page () {
       this.actionGetAllUsers(this.currentPage)
+      this.$router.push({ path: '/', query: { page: this.currentPage } })
     },
     addUser () {
       this.actionAddUser(this.add)
