@@ -4,8 +4,8 @@
           <h1>Login</h1>
           <form @submit.prevent='login'>
             <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input v-model="form.email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label for="email">Email address</label>
+                <input v-model="form.email" type="email" class="form-control" id="email" placeholder="demo:eve.holt@reqres.in, pass:123" aria-describedby="emailHelp">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
