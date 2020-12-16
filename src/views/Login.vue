@@ -27,8 +27,8 @@ export default {
   data () {
     return {
       form: {
-        email: null,
-        password: null
+        email: 'eve.holt@reqres.in',
+        password: '123'
       }
     }
   },
