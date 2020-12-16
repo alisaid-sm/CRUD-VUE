@@ -7,7 +7,7 @@ Feature:
 3. CRUD
 4. Pagination
 
-DEMO: https://bit.ly/2IFLqhu
+DEMO: https://bit.ly/34jGNRM
 
 Email: eve.holt@reqres.in
 
