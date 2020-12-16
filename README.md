@@ -7,7 +7,7 @@ Feature:
 3. CRUD
 4. Pagination
 
-DEMO: https://bit.ly/34jGNRM
+DEMO: https://bit.ly/38bEkdt
 
 Email: eve.holt@reqres.in
 
@@ -37,3 +37,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/48b8d7af-526b-4c3e-a5c6-f0cda0152d93/deploy-status)](https://app.netlify.com/sites/epic-bose-4663d7/deploys)
